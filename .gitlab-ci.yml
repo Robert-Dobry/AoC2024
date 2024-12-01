@@ -3,7 +3,7 @@ stages:
 
 day1:
   stage: day1
-  image: python3
+  image: python:alpine
   script:
     - python3 ./day1/main.py --input-file ./day1/list.txt
     - echo "done"
