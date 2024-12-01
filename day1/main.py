@@ -36,9 +36,3 @@ def part2(path):
 file_path = parse_args().input_file
 part1(file_path)
 part2(file_path)
-
-
-
-
-
-
